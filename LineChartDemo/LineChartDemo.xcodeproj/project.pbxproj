@@ -13,6 +13,8 @@
 		9EB032E41D4B51660050A842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB032E21D4B51660050A842 /* Main.storyboard */; };
 		9EB032E61D4B51660050A842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB032E51D4B51660050A842 /* Assets.xcassets */; };
 		9EB032E91D4B51660050A842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB032E71D4B51660050A842 /* LaunchScreen.storyboard */; };
+		9EB032F21D4B52700050A842 /* DTLineChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB032F11D4B52700050A842 /* DTLineChartPoint.m */; };
+		9EB032F51D4B52AE0050A842 /* DTLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB032F41D4B52AE0050A842 /* DTLineChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9EB032E51D4B51660050A842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EB032E81D4B51660050A842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EB032EA1D4B51660050A842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB032F01D4B52700050A842 /* DTLineChartPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLineChartPoint.h; sourceTree = "<group>"; };
+		9EB032F11D4B52700050A842 /* DTLineChartPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLineChartPoint.m; sourceTree = "<group>"; };
+		9EB032F31D4B52AE0050A842 /* DTLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLineChartView.h; sourceTree = "<group>"; };
+		9EB032F41D4B52AE0050A842 /* DTLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				9EB032E71D4B51660050A842 /* LaunchScreen.storyboard */,
 				9EB032EA1D4B51660050A842 /* Info.plist */,
 				9EB032D91D4B51660050A842 /* Supporting Files */,
+				9EB032F01D4B52700050A842 /* DTLineChartPoint.h */,
+				9EB032F11D4B52700050A842 /* DTLineChartPoint.m */,
+				9EB032F31D4B52AE0050A842 /* DTLineChartView.h */,
+				9EB032F41D4B52AE0050A842 /* DTLineChartView.m */,
 			);
 			path = LineChartDemo;
 			sourceTree = "<group>";
@@ -150,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EB032E11D4B51660050A842 /* ViewController.m in Sources */,
+				9EB032F21D4B52700050A842 /* DTLineChartPoint.m in Sources */,
 				9EB032DE1D4B51660050A842 /* AppDelegate.m in Sources */,
+				9EB032F51D4B52AE0050A842 /* DTLineChartView.m in Sources */,
 				9EB032DB1D4B51660050A842 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +310,7 @@
 				9EB032EF1D4B51660050A842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
